@@ -459,7 +459,7 @@
     iframe {
       width: 95%;
       max-width: 800px;
-      height: 720px;
+      height: 520px; /* ✅ Compact height */
       border: none;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -478,6 +478,11 @@
       font-size: 18px;
       border-radius: 8px;
       cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .whatsapp-block button:hover {
+      background: #1DA851;
     }
 
     .whatsapp-block p {
@@ -492,21 +497,22 @@
   <h1>Create Affiliate Digital Magic Card</h1>
   <div class="logo">Jansuvidhakart</div>
 
-  <!-- ✅ Zoho Form Embed -->
+  <!-- ✅ Zoho Form Embed (Compact) -->
   <iframe src="https://forms.zohopublic.in/supportjansuvi1/form/DigitalmagiccardAffiliates/formperma/PhWDgt2-uubUr82epEgSxA2aRFVLFNfIpWtAdmwxrI0"
           sandbox="allow-scripts allow-same-origin allow-forms"
           allowfullscreen>
   </iframe>
 
-  <!-- ✅ WhatsApp Button (Number hidden) -->
+  <!-- ✅ WhatsApp Business Button (Number hidden) -->
   <div class="whatsapp-block">
     <p>💬 Payment done? Send screenshot to WhatsApp:</p>
-    <a href="https://wa.me/919988942833?text=Hi%20Jansuvidhakart%2C%20I%20have%20completed%20the%20payment.%20Here%20is%20my%20screenshot." target="_blank">
+    <a href="https://wa.me/+91-9988942833?text=Hi%20Jansuvidhakart%2C%20I%20have%20completed%20the%20payment.%20Here%20is%20my%20screenshot." target="_blank">
       <button>📲 Send Screenshot on WhatsApp</button>
     </a>
   </div>
 
 </body>
 </html>
+
 
   
