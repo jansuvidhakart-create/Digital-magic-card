@@ -1,0 +1,428 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Magic ID Card</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+    }
+    .banner {
+      background: linear-gradient(to right, #1aa6b7, #65d6e6);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .banner h1 {
+      font-size: 32px;
+      margin: 0;
+    }
+    .banner p {
+      font-size: 16px;
+      margin-top: 8px;
+    }
+    .section {
+      max-width: 700px;
+      margin: auto;
+      padding: 20px;
+    }
+    .section h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card .info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .card img {
+      width: 30px;
+      height: 30px;
+    }
+    .card span {
+      font-weight: bold;
+      color: #333;
+    }
+    .card button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    @media (max-width: 600px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Banner Section -->
+  <div class="banner">
+    <h1>Jansuvidhakart</h1>
+    <p>Your Digital Service Hub</p>
+  </div>
+
+  <!-- Social Media Section -->
+  <div class="section">
+    <h2>🔗 Connect with Me</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/pinterest--v1.png" />
+          <span>Pinterest</span>
+        </div>
+        <button onclick="window.open('https://pinterest.com','_blank')">Open</button>
+      </div>
+      <div class="card">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/snapchat.png" />
+          <span>Snapchat</span>
+        </div>
+        <button onclick="window.open('https://snapchat.com','_blank')">Open</button>
+      </div>
+      <div class="card">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/telegram-app.png" />
+          <span>Telegram</span>
+        </div>
+        <button onclick="window.open('https://t.me','_blank')">Open</button>
+      </div>
+      <div class="card">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/whatsapp.png" />
+          <span>WhatsApp</span>
+        </div>
+        <button onclick="window.open('https://wa.me','_blank')">Open</button>
+      </div>
+      <div class="card">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/instagram-new.png" />
+          <span>Instagram</span>
+        </div>
+        <button onclick="window.open('https://instagram.com','_blank')">Open</button>
+      </div>
+      <div class="card">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/facebook-new.png" />
+          <span>Facebook</span>
+        </div>
+        <button onclick="window.open('https://facebook.com','_blank')">Open</button>
+      </div>
+    </div>
+  </div>
+  <div style="max-width:900px; margin:auto; padding:20px; background:#ffffff; border-radius:12px; font-family:sans-serif;">
+  <h2 style="text-align:center; color:#333;">🤖 Try Popular AI Chatbots</h2>
+  <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr)); gap:16px; margin-top:20px;">
+    
+    <!-- ChatGPT -->
+    <div style="background:#fff; border:1px solid #ddd; border-radius:10px; padding:12px; text-align:center;">
+      <img src="https://img.icons8.com/color/48/openai.png" alt="ChatGPT" />
+      <div style="margin:8px 0; font-weight:bold;">ChatGPT 5</div>
+      <button onclick="window.open('https://chat.openai.com','_blank')" style="background:#007bff; color:#fff; border:none; padding:6px 12px; border-radius:6px;">Chat</button>
+    </div>
+
+    <!-- Grok -->
+    <div style="background:#fff; border:1px solid #ddd; border-radius:10px; padding:12px; text-align:center;">
+      <img src="https://img.icons8.com/ios-filled/50/g.png" alt="Grok" />
+      <div style="margin:8px 0; font-weight:bold;">Grok</div>
+      <button onclick="window.open('https://x.ai','_blank')" style="background:#007bff; color:#fff; border:none; padding:6px 12px; border-radius:6px;">Chat</button>
+    </div>
+
+    <!-- DeepSeek -->
+    <div style="background:#fff; border:1px solid #ddd; border-radius:10px; padding:12px; text-align:center;">
+      <img src="https://img.icons8.com/color/48/artificial-intelligence.png" alt="DeepSeek" />
+      <div style="margin:8px 0; font-weight:bold;">DeepSeek</div>
+      <button onclick="window.open('https://deepseek.com','_blank')" style="background:#007bff; color:#fff; border:none; padding:6px 12px; border-radius:6px;">Chat</button>
+    </div>
+
+    <!-- Gemini 2.5 -->
+    <div style="background:#fff; border:1px solid #ddd; border-radius:10px; padding:12px; text-align:center;">
+      <img src="https://img.icons8.com/color/48/google-logo.png" alt="Gemini" />
+      <div style="margin:8px 0; font-weight:bold;">Gemini 2.5</div>
+      <button onclick="window.open('https://gemini.google.com','_blank')" style="background:#007bff; color:#fff; border:none; padding:6px 12px; border-radius:6px;">Chat</button>
+    </div>
+
+    <!-- LLaMA -->
+    <div style="background:#fff; border:1px solid #ddd; border-radius:10px; padding:12px; text-align:center;">
+      <img src="https://img.icons8.com/ios/50/llama.png" alt="LLaMA" />
+      <div style="margin:8px 0; font-weight:bold;">LLaMA</div>
+      <button onclick="window.open('https://llama.meta.com','_blank')" style="background:#007bff; color:#fff; border:none; padding:6px 12px; border-radius:6px;">Chat</button>
+    </div>
+
+    <!-- Copilot -->
+    <div style="background:#fff; border:1px solid #ddd; border-radius:10px; padding:12px; text-align:center;">
+      <img src="https://img.icons8.com/color/48/microsoft.png" alt="Copilot" />
+      <div style="margin:8px 0; font-weight:bold;">Copilot</div>
+      <button onclick="window.open('https://copilot.microsoft.com','_blank')" style="background:#007bff; color:#fff; border:none; padding:6px 12px; border-radius:6px;">Chat</button>
+    </div>
+
+  </div>
+</div>
+  
+  
+<div style="font-family:sans-serif; background:#e0f7ff; padding:20px; max-width:600px; margin:auto;">
+  <h3 style="text-align:center;">🎬 Watch Free OTT Channels</h3>
+
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:15px; margin-top:20px;">
+
+    <!-- MX Player -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/video-playlist.png" width="30">
+        <span style="font-weight:bold;">MX Player</span>
+      </div>
+      <a href="https://www.mxplayer.in" target="_blank">
+        <button style="background:#007bff; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Open</button>
+      </a>
+    </div>
+
+    <!-- JioCinema -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/play-button-circled.png" width="30">
+        <span style="font-weight:bold;">JioCinema</span>
+      </div>
+      <a href="https://www.jiocinema.com" target="_blank">
+        <button style="background:#007bff; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Open</button>
+      </a>
+    </div>
+
+    <!-- YouTube -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/youtube-play.png" width="30">
+        <span style="font-weight:bold;">YouTube</span>
+      </div>
+      <a href="https://www.youtube.com/@channelname" target="_blank">
+        <button style="background:#007bff; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Open</button>
+      </a>
+    </div>
+
+    <!-- Zee5 Free -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/tv.png" width="30">
+        <span style="font-weight:bold;">Zee5 Free</span>
+      </div>
+      <a href="https://www.zee5.com/movies/free" target="_blank">
+        <button style="background:#007bff; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Open</button>
+      </a>
+    </div>
+
+    <!-- Netflix -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/netflix-desktop-app.png" width="30">
+        <span style="font-weight:bold;">Netflix</span>
+      </div>
+      <a href="https://www.netflix.com/in/browse" target="_blank">
+        <button style="background:#007bff; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Open</button>
+      </a>
+    </div>
+
+    <!-- Hotstar -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/disney-plus.png" width="30">
+        <span style="font-weight:bold;">Hotstar</span>
+      </div>
+      <a href="https://www.hotstar.com/in" target="_blank">
+        <button style="background:#007bff; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Open</button>
+      </a>
+    </div>
+
+    <!-- SonyLiv -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/sony.png" width="30">
+        <span style="font-weight:bold;">SonyLiv</span>
+      </div>
+      <a href="https://www.sonyliv.com" target="_blank">
+        <button style="background:#007bff; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Open</button>
+      </a>
+    </div>
+
+    <!-- Prime Video -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/amazon-prime-video.png" width="30">
+        <span style="font-weight:bold;">Prime Video</span>
+      </div>
+      <a href="https://www.primevideo.com" target="_blank">
+        <button style="background:#007bff; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Open</button>
+      </a>
+    </div>
+
+    <!-- ALTBalaji -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/alt.png" width="30">
+        <span style="font-weight:bold;">ALTBalaji</span>
+      </div>
+      <a href="https://www.altbalaji.com" target="_blank">
+        <button style="background:#007bff; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Open</button>
+      </a>
+    </div>
+
+    <!-- Discovery+ -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/discovery-channel.png" width="30">
+        <span style="font-weight:bold;">Discovery+</span>
+      </div>
+      <a href="https://www.discoveryplus.in" target="_blank">
+        <button style="background:#007bff; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Open</button>
+      </a>
+    </div>
+
+  </div>
+</div>
+ <div style="font-family:sans-serif; background:#e0f7ff; padding:20px; max-width:600px; margin:auto;">
+  <h3 style="text-align:center;">🛍️ Shop from Top Apps</h3>
+
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:15px; margin-top:20px;">
+
+    <!-- Amazon -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/amazon.png" width="30">
+        <span style="font-weight:bold;">Amazon</span>
+      </div>
+      <a href="https://www.amazon.in" target="_blank">
+        <button style="background:#ff9900; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Shop</button>
+      </a>
+    </div>
+
+    <!-- Flipkart -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/flipkart.png" width="30">
+        <span style="font-weight:bold;">Flipkart</span>
+      </div>
+      <a href="https://www.flipkart.com" target="_blank">
+        <button style="background:#007bff; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Shop</button>
+      </a>
+    </div>
+
+    <!-- Meesho -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/meesho.png" width="30">
+        <span style="font-weight:bold;">Meesho</span>
+      </div>
+      <a href="https://www.meesho.com" target="_blank">
+        <button style="background:#e91e63; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Shop</button>
+      </a>
+    </div>
+
+    <!-- Myntra -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/myntra.png" width="30">
+        <span style="font-weight:bold;">Myntra</span>
+      </div>
+      <a href="https://www.myntra.com" target="_blank">
+        <button style="background:#ff3e3e; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Shop</button>
+      </a>
+    </div>
+
+    <!-- Snapdeal -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/snapdeal.png" width="30">
+        <span style="font-weight:bold;">Snapdeal</span>
+      </div>
+      <a href="https://www.snapdeal.com" target="_blank">
+        <button style="background:#d32f2f; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Shop</button>
+      </a>
+    </div>
+
+    <!-- AJIO -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/ajio.png" width="30">
+        <span style="font-weight:bold;">AJIO</span>
+      </div>
+      <a href="https://www.ajio.com" target="_blank">
+        <button style="background:#37474f; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Shop</button>
+      </a>
+    </div>
+
+    <!-- AliExpress -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/aliexpress.png" width="30">
+        <span style="font-weight:bold;">AliExpress</span>
+      </div>
+      <a href="https://www.aliexpress.com" target="_blank">
+        <button style="background:#ff5722; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Shop</button>
+      </a>
+    </div>
+
+    <!-- Paytm Mall -->
+    <div style="display:flex; align-items:center; justify-content:space-between; background:#fff; border-radius:10px; padding:10px; border:1px solid #ccc;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="https://img.icons8.com/color/48/paytm.png" width="30">
+        <span style="font-weight:bold;">Paytm Mall</span>
+      </div>
+      <a href="https://paytmmall.com" target="_blank">
+        <button style="background:#039be5; color:#fff; border:none; padding:5px 10px; border-radius:5px;">Shop</button>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+
+<div style="max-width:900px; margin:auto; padding:20px; font-family:sans-serif;">
+  <h2 style="text-align:center; color:#fff;">💼 Services & Consultation Rates</h2>
+  <table style="width:100%; border-collapse:collapse; margin-top:20px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.2);">
+    <thead>
+      <tr>
+        <th style="width:33%; background:#1aa6b7; color:#fff; padding:12px; text-align:left;">Services</th>
+        <th style="width:20%; background:#ff9800; color:#fff; padding:12px; text-align:left;">Price</th>
+        <th style="width:47%; background:#1aa6b7; color:#fff; padding:12px; text-align:left;">Consultation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="padding:10px;">Video Editing</td><td>Rs. 700</td><td>Doctors – Rs. 250</td></tr>
+      <tr><td style="padding:10px;">Content Writing</td><td>Rs. 500</td><td>Counsellor – Rs. 250</td></tr>
+      <tr><td style="padding:10px;">Graphic Design</td><td>Rs. 700</td><td>Therapist – Rs. 250</td></tr>
+      <tr><td style="padding:10px;">Website Design</td><td>Rs. 10000</td><td>Astrologers – Rs. 300</td></tr>
+      <tr><td style="padding:10px;">Complex site/App</td><td>Rs. 15000</td><td>Business Advice – Rs. 5000</td></tr>
+      <tr><td style="padding:10px;">SEO</td><td>Rs. 2000</td><td>C.A/CS – Rs. 500</td></tr>
+      <tr><td style="padding:10px;">Social Media Mktg</td><td>Rs. 1500</td><td>Tax/GST – Rs. 500</td></tr>
+      <tr><td style="padding:10px;">Tax Return Filing</td><td>Rs. 500</td><td>Financial – Rs. 500</td></tr>
+      <tr><td style="padding:10px;">Accountant</td><td>Rs. 4000</td><td>HR – Rs. 500</td></tr>
+      <tr><td style="padding:10px;">CA/CS Certificate</td><td>Rs. 2500</td><td>Website/App – Rs. 500</td></tr>
+      <tr><td style="padding:10px;">Interior Design</td><td>Rs. 7000</td><td>Digital Mktg – Rs. 500</td></tr>
+      <tr><td style="padding:10px;">IT/Infra Support</td><td>Rs. 1200</td><td>Job/Career – Rs. 500</td></tr>
+      <tr><td></td><td></td><td>Software/Infra – Rs. 1200</td></tr>
+    </tbody>
+  </table>
+</div>
+
+
